@@ -18,7 +18,7 @@ https://nafisa06.github.io/Work-Day-Scheduler-using-3rd-Party-APIs/
 
 This work day scheduler displays the classic work hours of 9AM to 5PM. The current date (day of the week, dd,mm,yyyy) is display at teh top of the page. Each block of time is colour coded to indicate whether the blocks are in the past (grey colour), in present time (red) or future (lime green) with a save icon that allows the user to save their schedule so that it remains in place if the page is refreshed or reloaded.
 
-! [screenshot] (Assets/images/work day scheduler.png)
+! [screenshot] (./Assets/images/work day scheduler.png)
 
 ## License
 Licensed under the [MIT License](MIT License.md)

@@ -46,7 +46,7 @@ $(document).ready(function () {
 localStorage.setItem(time, text);
     })
 
-function timeTracker() {
+function hourly_tracking() {
       
     var timeNow = moment().hour();
 
@@ -78,3 +78,18 @@ function timeTracker() {
             }
         })
     }
+
+    //retrieve local storage for each time block
+
+    $("#9am .appointment").val(localStorage.getItem("9am"));
+    $("#10am .appointment").val(localStorage.getItem("10am"));
+    $("#11am .appointment").val(localStorage.getItem("11am"));
+    $("#12pm .appointment").val(localStorage.getItem("12pm"));
+    $("#1pm .appointment").val(localStorage.getItem("1pm"));
+    $("#2pm .appointment").val(localStorage.getItem("2pm"));
+    $("#3pm .appointment").val(localStorage.getItem("3pm"));
+    $("#4pm .appointment").val(localStorage.getItem("4pm"));
+    $("#5pm .appointment").val(localStorage.getItem("5pm"));
+   
+
+})

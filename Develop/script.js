@@ -19,7 +19,7 @@ Array.from(rows).forEach(row => {
     if (currentHour === rowHour) {
       setColor(row, "red");
     } else if ((currentHour < rowHour) ) {
-      setColor(row, "green");
+      setColor(row, "limegreen");
     } else if ((currentHour > rowHour) ) {
       setColor(row, "lightgrey");
     } else {
